@@ -1,4 +1,4 @@
-# CHALLENGE 068 ☻ Python Exercise 068: Write a program that plays even or odd with the computer. The game will only
+# CHALLENGE 068 ☻ Python Exercise 068: Write a program that plays Odds or Evens with the computer. The game will only
 # interrupted when the player loses, showing the total number of consecutive wins he has achieved at the end of the game.
 
 from random import randint
