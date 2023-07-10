@@ -1,11 +1,12 @@
-# DESAFIO 059 ☻
-'''Crie um programa que leia dois valores e mostre um menu na tela:
-[ 1 ] somar
-[ 2 ] multiplicar
-[ 3 ] maior
-[ 4 ] novos números
-[ 5 ] sair do programa
-Seu programa deverá realizar a operação solicitada em cada caso.'''
+# Challenge 059 ☻ Creating an Options Menu
+'''Create a program that reads two values and displays a menu on the screen:
+[ 1 ] add
+[ 2 ] multiply
+[3] bigger
+[ 4 ] new numbers
+[ 5 ] Exit the program
+Your program should perform the requested operation in each case.'''
+
 from time import sleep
 for n in range(1, 999):
     n1 = int(input('Type a value'))
