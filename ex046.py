@@ -1,0 +1,31 @@
+# DESAFIO 046 ☻ Faça um programa que mostre na tela uma contagem regressiva para o estouro de fogos de artifício,
+# indo de 10 até 0, com uma pausa de 1 segundo entre eles.
+
+from time import sleep
+print('\033[1;97mContagem regressiva!')
+for c in range(10, -1, -1):
+    print(c)
+    sleep(1)
+print('BUM! BUM! POWWW!')
+print('\033[1;97mContagem regressiva!')
+sleep(1)
+print('\033[0;97m10')
+sleep(1)
+print('9')
+sleep(1)
+print('8')
+sleep(1)
+print('7')
+sleep(1)
+print('6')
+sleep(1)
+print('5')
+sleep(1)
+print('4')
+sleep(1)
+print('3')
+sleep(1)
+print('2')
+sleep(1)
+print('1')
+print('BUM! BUM! POWWW!')
